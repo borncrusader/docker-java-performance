@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Random;
 
 public class ScaleTest {
-
     static int _num_loops_per_thread = 1000000;
 
     public static void main(String[] args) {
@@ -14,7 +13,7 @@ public class ScaleTest {
 
         System.out.format("Testing with X threads, each making %d sin(x) calls per thread", _num_loops_per_thread);
         System.out.println("Number of Threads, Milliseconds");
-        for (int i=0; i<100; i++) {
+        for (int i = 0; i < 100; i++) {
             List<Thread> threads = new ArrayList<>();
             long startTime = System.currentTimeMillis();
             for (int j = 0; j < i; j++) {
