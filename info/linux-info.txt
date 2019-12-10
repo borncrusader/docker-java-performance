@@ -1,0 +1,1 @@
+Linux ask-arch 5.4.2-arch1-1 #1 SMP PREEMPT Thu, 05 Dec 2019 12:29:40 +0000 x86_64 GNU/Linux
