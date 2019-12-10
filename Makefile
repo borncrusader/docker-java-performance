@@ -1,5 +1,5 @@
 JAR := target/docker-java-performance-1.0-SNAPSHOT-jar-with-dependencies.jar
-NCPUS := 32
+NCPUS := 24
 
 build:
 	mvn install
